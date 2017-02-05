@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GFE Arzila - Baixo Mondego</title>
+    <link>https://jmgirao.github.io/gfea-web/</link>
+    <description>Recent content on GFE Arzila - Baixo Mondego</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-PT</language>
+    <atom:link href="https://jmgirao.github.io/gfea-web/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://jmgirao.github.io/gfea-web/festa-esteira/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jmgirao.github.io/gfea-web/festa-esteira/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}&#34;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&#34;utf-8&#34;&gt;
+        &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34;&gt;
+        &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1&#34;&gt;
+        {{ with .Site.Params.name }}&lt;meta name=&#34;author&#34; content=&#34;{{ . }}&#34;&gt;{{ end }}
+        {{ with .Site.Params.description }}&lt;meta name=&#34;description&#34; content=&#34;{{ . }}&#34;&gt;{{ end }}
+        {{ .Hugo.Generator }}
+        &lt;title&gt;{{ .Site.Title }}&lt;/title&gt;
+
+        {{ &#34;&lt;!-- Favicon --&gt;&#34; | safeHTML }}
+        &lt;link rel=&#34;shortcut icon&#34; href=&#34;{{ .Site.BaseURL }}{{ .Site.Params.favicon }}&#34;&gt;
+
+        {{ &#34;&lt;!-- Bootstrap Core CSS --&gt;&#34; | safeHTML }}
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ .Site.BaseURL }}css/bootstrap.min.css&#34; type=&#34;text/css&#34;&gt;
+
+        {{ &#34;&lt;!-- Custom Fonts --&gt;&#34; | safeHTML }}
+        &lt;link href=&#34;https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&#34; rel=&#34;stylesheet&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ .Site.BaseURL }}font-awesome/css/font-awesome.min.css&#34; type=&#34;text/css&#34;&gt;
+
+        {{ &#34;&lt;!-- Plugin CSS --&gt;&#34; | safeHTML }}
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ .Site.BaseURL }}css/animate.min.css&#34; type=&#34;text/css&#34;&gt;
+
+        {{ &#34;&lt;!-- Custom CSS --&gt;&#34; | safeHTML }}
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ .Site.BaseURL }}css/creative.css&#34; type=&#34;text/css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ .Site.BaseURL }}css/modals.css&#34; type=&#34;text/css&#34;&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ .Site.BaseURL }}css/festa-esteira.css&#34; type=&#34;text/css&#34;&gt;
+        {{ range .Site.Params.custom_css }}
+            &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ $.Site.BaseURL }}{{ . }}&#34;&gt;
+        {{ end }}
+    &lt;/head&gt;
+    &lt;body id=&#34;page-top&#34;&gt;
+        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.contact }}
+            {{ partial &#34;nav.html&#34; . }}
+        {{ end }}
+
+        {{ if .Site.Params.hero }}
+            {{ partial &#34;hero.html&#34; . }}
+        {{ end }}
+
+        {{ if .Site.Params.about }}
+            {{ partial &#34;about.html&#34; . }}
+        {{ end }}
+
+        {{ if .Site.Params.aside }}
+            {{ partial &#34;aside.html&#34; . }}
+        {{ end }}
+
+        {{ if .Site.Params.contact }}
+            {{ partial &#34;contact.html&#34; . }}
+        {{ end }}
+
+        {{ &#34;&lt;!-- jQuery --&gt;&#34; | safeHTML }}
+        &lt;script src=&#34;{{ .Site.BaseURL }}js/jquery.js&#34;&gt;&lt;/script&gt;
+        {{ &#34;&lt;!-- Bootstrap Core JavaScript --&gt;&#34; | safeHTML }}
+        &lt;script src=&#34;{{ .Site.BaseURL }}js/bootstrap.min.js&#34;&gt;&lt;/script&gt;
+        {{ &#34;&lt;!-- Plugin JavaScript --&gt;&#34; | safeHTML }}
+        &lt;script src=&#34;{{ .Site.BaseURL }}js/jquery.easing.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script src=&#34;{{ .Site.BaseURL }}js/jquery.fittext.js&#34;&gt;&lt;/script&gt;
+        &lt;script src=&#34;{{ .Site.BaseURL }}js/wow.min.js&#34;&gt;&lt;/script&gt;
+        {{ range .Site.Params.plugins_js }}
+        &lt;script src=&#34;{{ $.Site.BaseURL }}js/{{ . }}&#34;&gt;&lt;/script&gt;
+        {{ end }}
+        {{ &#34;&lt;!-- Custom Theme JavaScript --&gt;&#34; | safeHTML }}
+        &lt;script src=&#34;{{ .Site.BaseURL }}js/creative.js&#34;&gt;&lt;/script&gt;
+        {{ range .Site.Params.custom_js }}
+        &lt;script src=&#34;{{ $.Site.BaseURL }}js/{{ . }}&#34;&gt;&lt;/script&gt;
+        {{ end }}
+    &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

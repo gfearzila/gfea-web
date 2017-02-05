@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto';
+}
+
+.text-back-red,
+.text-back-red a {
+  color: rgba(52, 52, 52, .7);
+}
+
+.text-back-red a:hover,
+.text-back-red a:focus {
+  color: #fff;
+}
+
+#services,
+#portfolio {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.backdrop {
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio-modal ul {
+  list-style: none;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0;
+}
+
+.touch-events .portfolio-box .portfolio-box-caption {
+  opacity: 1;
+  height: 20%;
+}
